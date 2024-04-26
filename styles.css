@@ -1,0 +1,146 @@
+@media screen and (max-width: 480px) {
+    .page-content > p {
+        margin: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 801px) {
+    .page-content > p {
+        margin: 20px 50px;
+    }
+    .contact-div {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .page-content > p {
+        margin: 20px 80px;
+    }
+    .contact-div {
+        height: 800px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Home Page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.page-content {
+    border-radius: 10px;
+    background-color: #fbfcff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headline-1 {
+    font-size: 50px;
+    color: #555555;
+    font-weight: 100;
+    margin: 20px;
+}
+
+.headline-2 {
+    color: #444444;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.page-content > img {
+    max-width: auto;
+    max-height: 50%;
+}
+
+
+.page-content > p {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 90;
+    line-height: 1.5;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.tab {
+    display: inline-block;
+    width: auto;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fbfcff;
+    border: 2px solid #96969693;
+    color: #444444;
+}
+
+/* Menu Page */
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    flex: 1 1 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+ul li img {
+    display: block;
+    margin: 0 auto 10px;
+    cursor: pointer;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    color: #444444;
+}
+
+/* Contact Page */
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-h1 {
+    padding: 20px;
+}
+
+.contact-h2 {
+    border: 2px solid #97979786;
+    border-radius: 4px;;
+    width: 400px;
+    padding: 20px;
+    font-weight: 200;
+    color: #444444;
+    margin: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+}
